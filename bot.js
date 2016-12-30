@@ -99,7 +99,7 @@ const admin = 'Your facebook id'
                                   '\n!analysis (Sends back chat rooms id.)' +
                                   '\n!gethelp (Adds bot developer to the chat group.)' +
                                   '\n!ping (pong!)', event.threadID)
-                break
+                break;
 
             }
           break;
