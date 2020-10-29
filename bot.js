@@ -1,18 +1,18 @@
-const login = require("facebook-chat-api")
+const login = require("facebook-chat-api");
 
-const translate = require('node-google-translate-skidz')
+const translate = require('node-google-translate-skidz');
 
-const scraper = require('google-search-scraper')
+const scraper = require('google-search-scraper');
 
-const search = require('youtube-search')
+const search = require('youtube-search');
 
-const fs = require('fs')
+const fs = require('fs');
 
-const gis = require('g-i-s')
+const gis = require('g-i-s');
 
 const Anime = require('malapi').Anime;
 
-const admin = 'Your facebook id'
+const admin = 'Your facebook id';
 
   login({email: "", password: "" /*facebook credentials here*/}, function callback (err, api) {
       if(err) return console.error(err);
